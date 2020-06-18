@@ -1,0 +1,232 @@
+CRITICAL - 2020-05-22 00:29:52 --> Call to a member function set_rules() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->indexlogin()
+#1 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 00:29:55 --> Call to a member function set_rules() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->indexlogin()
+#1 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 00:29:58 --> Call to a member function set_rules() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->indexlogin()
+#1 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 00:29:59 --> Call to a member function set_rules() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->indexlogin()
+#1 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 00:30:29 --> Call to a member function set_rules() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->indexlogin()
+#1 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 00:30:34 --> Call to a member function set_rules() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->indexlogin()
+#1 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 02:30:14 --> file_get_contents(): SSL: Handshake timed out
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home.php(17): file_get_contents('https://api.kaw...')
+#2 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->index2()
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-22 02:56:16 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-22 03:02:37 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-22 03:06:09 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-22 03:07:46 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-22 03:22:53 --> Call to a member function icon() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Login.php(13): view('login', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 03:22:56 --> Call to a member function icon() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Login.php(13): view('login', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 03:24:31 --> Call to a member function icon() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Login.php(13): view('login', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 03:25:01 --> Call to a member function icon() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Login.php(13): view('login', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 03:26:21 --> Call to a member function icon() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Login.php(13): view('login', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 03:26:28 --> Call to a member function icon() on null
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Login.php(13): view('login', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 03:58:32 --> Invalid file: login/index.php
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('login/index', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Login.php(42): view('login/index', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 04:06:58 --> Invalid file: login/index.php
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('login/index', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Login.php(42): view('login/index', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 04:07:14 --> Invalid file: login/index.php
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('login/index', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Login.php(42): view('login/index', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 05:01:05 --> Invalid file: layout2/wrapper.php
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout2/wrapper...')
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('layout2/wrapper', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home2.php(23): view('layout2/wrapper', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home2->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home2))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 05:01:09 --> Invalid file: layout2/wrapper.php
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout2/wrapper...')
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('layout2/wrapper', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home2.php(23): view('layout2/wrapper', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home2->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home2))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 05:01:15 --> Invalid file: layout2/wrapper.php
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout2/wrapper...')
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('layout2/wrapper', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home2.php(23): view('layout2/wrapper', Array)
+#3 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home2->index()
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home2))
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-22 05:32:35 --> Invalid file: home2/read.php
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home2/read.php')
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('home2/read', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Views\admin\layout\content.php(5): view('home2/read')
+#3 C:\xampp\htdocs\web-kawalcorona\app\Views\admin\layout\wrapper.php(8): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('admin/layout/wr...', Array, true)
+#6 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home2.php(37): view('admin/layout/wr...', Array)
+#7 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home2->read('kursus-wordpres...')
+#8 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home2))
+#9 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-05-22 05:32:35 --> Invalid file: home2/read.php
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home2/read.php')
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('home2/read', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Views\admin\layout\content.php(5): view('home2/read')
+#3 C:\xampp\htdocs\web-kawalcorona\app\Views\admin\layout\wrapper.php(8): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('admin/layout/wr...', Array, true)
+#6 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home2.php(37): view('admin/layout/wr...', Array)
+#7 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home2->read('kursus-wordpres...')
+#8 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home2))
+#9 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-05-22 05:32:38 --> Invalid file: home2/read.php
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home2/read.php')
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('home2/read', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Views\admin\layout\content.php(5): view('home2/read')
+#3 C:\xampp\htdocs\web-kawalcorona\app\Views\admin\layout\wrapper.php(8): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('admin/layout/wr...', Array, true)
+#6 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home2.php(37): view('admin/layout/wr...', Array)
+#7 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home2->read('kursus-wordpres...')
+#8 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home2))
+#9 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-05-22 05:32:42 --> Invalid file: home2/read.php
+#0 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home2/read.php')
+#1 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('home2/read', Array, true)
+#2 C:\xampp\htdocs\web-kawalcorona\app\Views\admin\layout\content.php(5): view('home2/read')
+#3 C:\xampp\htdocs\web-kawalcorona\app\Views\admin\layout\wrapper.php(8): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('admin/layout/wr...', Array, true)
+#6 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home2.php(37): view('admin/layout/wr...', Array)
+#7 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home2->read('kursus-wordpres...')
+#8 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home2))
+#9 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}

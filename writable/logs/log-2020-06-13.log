@@ -1,0 +1,90 @@
+CRITICAL - 2020-06-13 01:46:43 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-13 02:01:34 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-13 02:10:39 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-13 03:07:45 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-13 06:09:46 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\web-kawalcorona\app\Views\homepage.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 212, Array)
+#1 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('homepage', Array, true)
+#3 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home.php(13): view('homepage', Array)
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-13 06:09:50 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\web-kawalcorona\app\Views\homepage.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 212, Array)
+#1 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('homepage', Array, true)
+#3 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home.php(13): view('homepage', Array)
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-13 08:36:22 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\web-kawalcorona\app\Views\homepage.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 335, Array)
+#1 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('homepage', Array, true)
+#3 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home.php(13): view('homepage', Array)
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-13 08:36:31 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\web-kawalcorona\app\Views\homepage.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 335, Array)
+#1 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('homepage', Array, true)
+#3 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home.php(13): view('homepage', Array)
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-13 08:39:44 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\web-kawalcorona\app\Views\homepage.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 331, Array)
+#1 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('homepage', Array, true)
+#3 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home.php(13): view('homepage', Array)
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-13 08:40:25 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\web-kawalcorona\app\Views\homepage.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 331, Array)
+#1 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('homepage', Array, true)
+#3 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home.php(13): view('homepage', Array)
+#4 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-13 18:47:16 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\web-kawalcorona\app\Views\contact.php(38): mail('wirapermana3@gm...', 'Pesan website d...', '<h2>Via Form Ko...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\web-kawalcorona\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\web-kawalcorona\system\Common.php(1087): CodeIgniter\View\View->render('contact', Array, true)
+#4 C:\xampp\htdocs\web-kawalcorona\app\Controllers\Home.php(85): view('contact', Array)
+#5 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(914): App\Controllers\Home->contact()
+#6 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\web-kawalcorona\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-kawalcorona\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-kawalcorona\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

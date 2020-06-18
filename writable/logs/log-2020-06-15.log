@@ -1,0 +1,40 @@
+CRITICAL - 2020-06-15 00:45:22 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\APICOV19\app\Views\homepage.php(2): file_get_contents('https://api.kaw...')
+#2 C:\xampp\htdocs\APICOV19\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\APICOV19\system\Common.php(1087): CodeIgniter\View\View->render('homepage', Array, true)
+#4 C:\xampp\htdocs\APICOV19\app\Controllers\Home.php(13): view('homepage', Array)
+#5 C:\xampp\htdocs\APICOV19\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\APICOV19\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\APICOV19\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\APICOV19\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\APICOV19\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-06-15 03:27:03 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\APICOV19\app\Views\homepage.php(2): file_get_contents('https://api.kaw...')
+#2 C:\xampp\htdocs\APICOV19\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\APICOV19\system\Common.php(1087): CodeIgniter\View\View->render('homepage', Array, true)
+#4 C:\xampp\htdocs\APICOV19\app\Controllers\Home.php(13): view('homepage', Array)
+#5 C:\xampp\htdocs\APICOV19\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\APICOV19\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\APICOV19\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\APICOV19\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\APICOV19\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-06-15 03:56:38 --> file_get_contents(https://api.kawalcorona.com/indonesia/): failed to open stream: A socket operation was attempted to an unreachable host.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\APICOV19\app\Views\homepage.php(2): file_get_contents('https://api.kaw...')
+#2 C:\xampp\htdocs\APICOV19\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\APICOV19\system\Common.php(1087): CodeIgniter\View\View->render('homepage', Array, true)
+#4 C:\xampp\htdocs\APICOV19\app\Controllers\Home.php(13): view('homepage', Array)
+#5 C:\xampp\htdocs\APICOV19\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\APICOV19\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\APICOV19\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\APICOV19\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\APICOV19\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-06-15 09:00:37 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

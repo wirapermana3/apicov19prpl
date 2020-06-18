@@ -1,0 +1,18 @@
+Nama : Satya Wira Permana
+NIM : 1187050098
+Kelas : Praktikum RPL - A
+
+Untuk dapat menjalankan Aplikasi APICOV19 ini, ada beberapa hal yang perlu disiapkan, yaitu:
+1. Sudah terinstal Composer
+2. Sudah terinstal Git
+3. PHP Versi 7 Ke atas
+
+Cara Menjalankannya:
+1. Download terlebih dahulu project Aplikasi APICOV19 ini.
+1. Lakukan instalasi Composer dan Git terlebih dahulu jika terinstal.
+2. Setting Path Composer dan Git di My Computer - Klik Kanan lalu pilih Properties, setelah itu pilih Advanced System Settings, dan pilih Environment Variables. Pada komputer saya, location composersetup yaitu (C:\ProgramData\ComposerSetup\bin) dan location bin untuk Git (C:\Program Files\Git\bin) di copy dan paste ke Path system Variables.
+3. Pada komputer saya dilakukan juga copy location (C:\Users\E202SA\AppData\Local\ComposerSetup\bin) dan (C:\Program Files\Git\bin) ke User Variables for E202SA (User Komputer atau PC saya). Menyesuaikan dengan User PC atau Komputer masing-masing.
+4. Setelah itu, jika menggunakan git bash, maka klik kanan di dalam folder APICOV19, dan pilih Git Bash Here. Lalu ketikkan php spark serve, dan akan muncul url Localhost. Pada komputer atau PC saya yaitu (localhost:8080).
+5. Apabila menggunakan CMD biasa, maka hanya tinggal mengarahkan ke folder APICOV19 nya saja. Pada saya misalnya hanya melakukan perintah, cd CD:/xampp/htdocs/APICOV19 lalu tekan enter, kemudian ketikkan php spark serve, maka akan muncul url localhost yang bisa digunakan untuk mengakses aplikasi APICOV19 ini.
+
+--Terimakasih--
