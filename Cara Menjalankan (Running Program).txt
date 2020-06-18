@@ -9,6 +9,7 @@ Untuk dapat menjalankan Aplikasi APICOV19 ini, ada beberapa hal yang perlu disia
 
 Cara Menjalankannya:
 1. Download terlebih dahulu project Aplikasi APICOV19 ini.
+2. Nyalakan server lokal atau localhost dari xampp atau lainnya, kemudian pastikan internet menyala karena disini akan ditampilkan data covid-19 yang bersumber dari data REST API dan membutuhkan koneksi internet.
 1. Lakukan instalasi Composer dan Git terlebih dahulu jika terinstal.
 2. Setting Path Composer dan Git di My Computer - Klik Kanan lalu pilih Properties, setelah itu pilih Advanced System Settings, dan pilih Environment Variables. Pada komputer saya, location composersetup yaitu (C:\ProgramData\ComposerSetup\bin) dan location bin untuk Git (C:\Program Files\Git\bin) di copy dan paste ke Path system Variables.
 3. Pada komputer saya dilakukan juga copy location (C:\Users\E202SA\AppData\Local\ComposerSetup\bin) dan (C:\Program Files\Git\bin) ke User Variables for E202SA (User Komputer atau PC saya). Menyesuaikan dengan User PC atau Komputer masing-masing.
